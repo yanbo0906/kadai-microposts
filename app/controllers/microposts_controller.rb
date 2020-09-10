@@ -31,5 +31,6 @@ class MicropostsController < ApplicationController
     unless @micropost
       redirect_to root_url
     end
+
   end
 end
